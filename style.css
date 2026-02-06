@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #000 0%, #111 100%);
+}
+
+.logo {
+    width: 200px;
+    background: #000;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 15px;
+    letter-spacing: 3px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #222;
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+.aulas {
+    padding: 40px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.aula-btn {
+    display: block;
+    background: #111;
+    border: 1px solid #222;
+    padding: 15px;
+    margin-bottom: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.aula-btn strong {
+    display: block;
+}
+
+.aula-btn span {
+    font-size: 13px;
+    color: #aaa;
+}
+
+.aula-btn:hover {
+    background: #1a1a1a;
+}
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 14px;
+    border: 1px solid #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.voltar:hover {
+    background: #111;
+}
